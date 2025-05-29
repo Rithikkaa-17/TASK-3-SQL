@@ -78,11 +78,11 @@ Created views and indexes for better analysis and performance
 
 # Deliverables:
 
-SQL Script File - TASK-3 SQL RITHIKKAA
+SQL Script File - TASK-3 SQL RITHIKKAA.sql
 
 Output Screenshots/Logs – OUTPUT.txt
 
-SQL queries and Output - TASKSQL
+SQL queries and Output - TASKSQL.pdf
 
 README File – This document
 
