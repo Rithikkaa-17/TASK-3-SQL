@@ -1,0 +1,165 @@
+
+
+Table CUS created.
+
+Elapsed: 00:00:00.019
+
+
+Table COUN created.
+
+Elapsed: 00:00:00.010
+
+
+Table PRO created.
+
+Elapsed: 00:00:00.010
+
+
+Table TOWN created.
+
+Elapsed: 00:00:00.009
+
+
+Table CAT created.
+
+Elapsed: 00:00:00.012
+
+
+Table COUR created.
+
+Elapsed: 00:00:00.012
+
+
+3 rows inserted.
+
+Elapsed: 00:00:00.015
+
+
+3 rows inserted.
+
+Elapsed: 00:00:00.012
+
+
+3 rows inserted.
+
+Elapsed: 00:00:00.013
+
+
+3 rows inserted.
+
+Elapsed: 00:00:00.015
+
+
+3 rows inserted.
+
+Elapsed: 00:00:00.014
+
+
+3 rows inserted.
+
+Elapsed: 00:00:00.013
+CUSTOMERID FIRSTNAME LASTNAME DOB                       EMAIL                      PASSWORD  CONTACT      
+---------- --------- -------- ------------------------- -------------------------- --------- ------------ 
+1          Ravi      Kumar    03/15/1990, 05:30:00 AM   ravi.kumar@example.com     pass123   9876543210   
+2          Priya     Sharma   07/20/1992, 05:30:00 AM   priya.sharma@example.com   pass456   9876543211   
+3          Amit      Verma    11/02/1985, 05:30:00 AM   amit.verma@example.com     pass789   9876543212   
+
+Elapsed: 00:00:00.073
+3 rows selected. 
+
+CUSTOMERID FIRSTNAME LASTNAME DOB                       EMAIL                      PASSWORD  CONTACT      
+---------- --------- -------- ------------------------- -------------------------- --------- ------------ 
+1          Ravi      Kumar    03/15/1990, 05:30:00 AM   ravi.kumar@example.com     pass123   9876543210   
+2          Priya     Sharma   07/20/1992, 05:30:00 AM   priya.sharma@example.com   pass456   9876543211   
+
+Elapsed: 00:00:00.006
+2 rows selected. 
+
+CUSTOMERID FIRSTNAME LASTNAME DOB                       EMAIL                      PASSWORD  CONTACT      
+---------- --------- -------- ------------------------- -------------------------- --------- ------------ 
+3          Amit      Verma    11/02/1985, 05:30:00 AM   amit.verma@example.com     pass789   9876543212   
+2          Priya     Sharma   07/20/1992, 05:30:00 AM   priya.sharma@example.com   pass456   9876543211   
+1          Ravi      Kumar    03/15/1990, 05:30:00 AM   ravi.kumar@example.com     pass123   9876543210   
+
+Elapsed: 00:00:00.003
+3 rows selected. 
+
+BIRTHYEAR TOTALCUSTOMERS 
+--------- -------------- 
+1985      1              
+1990      1              
+1992      1              
+
+Elapsed: 00:00:00.004
+3 rows selected. 
+
+CITYNAME        PROVINCENAME 
+--------------- ------------ 
+Chennai         Tamil Nadu   
+San Francisco   California   
+Toronto         Ontario      
+
+Elapsed: 00:00:00.010
+3 rows selected. 
+
+CITYNAME        PROVINCENAME 
+--------------- ------------ 
+Chennai         Tamil Nadu   
+San Francisco   California   
+Toronto         Ontario      
+
+Elapsed: 00:00:00.004
+3 rows selected. 
+
+AVGAGE 
+------ 
+35     
+
+Elapsed: 00:00:00.002
+1 rows selected. 
+
+TOTALCOURIERS 
+------------- 
+3             
+
+Elapsed: 00:00:00.003
+1 rows selected. 
+
+YOUNGEST                  OLDEST                    
+------------------------- ------------------------- 
+11/02/1985, 05:30:00 AM   07/20/1992, 05:30:00 AM   
+
+Elapsed: 00:00:00.003
+1 rows selected. 
+
+CUSTOMERID FIRSTNAME LASTNAME DOB                       EMAIL                    PASSWORD  CONTACT      
+---------- --------- -------- ------------------------- ------------------------ --------- ------------ 
+3          Amit      Verma    11/02/1985, 05:30:00 AM   amit.verma@example.com   pass789   9876543212   
+
+Elapsed: 00:00:00.004
+1 rows selected. 
+
+
+
+View CUSTOMERSUMMARY created.
+
+Elapsed: 00:00:00.005
+FULLNAME       EMAIL                      CONTACT      
+-------------- -------------------------- ------------ 
+Ravi Kumar     ravi.kumar@example.com     9876543210   
+Priya Sharma   priya.sharma@example.com   9876543211   
+Amit Verma     amit.verma@example.com     9876543212   
+
+Elapsed: 00:00:00.003
+3 rows selected. 
+
+
+
+Index IDX_EMAIL created.
+
+Elapsed: 00:00:00.012
+
+
+Index IDX_DOB created.
+
+Elapsed: 00:00:00.012
