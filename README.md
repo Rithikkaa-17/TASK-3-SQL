@@ -1,17 +1,17 @@
 # TASK-3-SQL
 
-Objective:
+# Objective:
 The objective of this task is to demonstrate proficiency in SQL by performing data extraction, analysis and optimization using a structured database. This task covers the use of SQL queries for basic retrieval, filtering, grouping, joining tables, creating views and applying indexes.
 
-Tools Used:
+# Tools Used:
 
 Database Engine: MySQL 
 
-Database Schema:
+# Database Schema:
 
 Database: SALES
 
-Tables Created:
+# Tables Created:
 
 Cus – Customer Information
 
@@ -25,11 +25,11 @@ Cat – Product Categories
 
 Cour – Courier Information
 
-Data Insertion:
+# Data Insertion:
 
 Each table was inserted with 3 sample rows of representative data.
 
-SQL Query Highlights:
+# SQL Query Highlights:
 
 Data Retrieval
 SELECT * FROM Cus; – Fetches all customer details
@@ -58,7 +58,7 @@ CustomerSummary – Concatenated name, email, and contact info
 Indexes
 Created on Email and DOB for performance optimization
 
-Output Verification:
+# Output Verification:
 
 All queries executed successfully
 
@@ -66,7 +66,7 @@ Output verified and captured in OUTPUT.txt
 
 Elapsed times confirm efficient execution
 
-Key Learnings:
+# Key Learnings:
 
 Mastered SELECT, WHERE, ORDER BY, GROUP BY
 
@@ -76,7 +76,7 @@ Applied aggregate functions for summary statistics
 
 Created views and indexes for better analysis and performance
 
-Deliverables:
+# Deliverables:
 
 SQL Script File - TASK-3 SQL RITHIKKAA
 
